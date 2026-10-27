@@ -1,0 +1,22 @@
+{
+  "blank_unit_prices": 1648,
+  "quantity_typo_rows": 412,
+  "duplicate_order_item_rows": 989,
+  "blank_payment_methods": 791,
+  "blank_customer_age_bands": 152,
+  "seed": 20261027,
+  "start_date": "2024-01-01",
+  "end_date": "2026-09-30",
+  "stores": 10,
+  "counties": 8,
+  "customers": 19000,
+  "products": 99,
+  "orders": 316277,
+  "order_item_rows_raw": 824761,
+  "order_item_rows_before_duplicates": 823772,
+  "guest_checkout_orders": 69853,
+  "mpesa_orders_nonmissing": 193915,
+  "net_revenue_reference_kes": 253971298.29,
+  "synthetic_retail_data": true,
+  "real_context": "KNBS 2019 county population only"
+}

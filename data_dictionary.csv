@@ -1,0 +1,47 @@
+file,column,suggested_data_type,description,notes
+stores.csv,store_id,text,Fictional branch identifier,Primary key
+stores.csv,store_name,text,Fictional retail branch name,Not a real business
+stores.csv,county,text,Real Kenyan county name of fictional branch,Join to 2019 census county reference
+stores.csv,town,text,Town/neighbourhood,Fictional branch placement
+stores.csv,opening_date,date YYYY-MM-DD,Simulated branch opening,No receipts should precede this date
+stores.csv,store_format,text,Retail branch format,All currently neighbourhood minimarkets
+products.csv,product_id,text,Fictional SKU identifier,Primary key
+products.csv,category,text,Retail category grouping,Dimension
+products.csv,product_name,text,Generic product and package size,Synthetic SKU label
+products.csv,base_list_price_kes,decimal,Simulation reference price in KES,Not a observed Kenyan shop price
+products.csv,base_unit_cost_kes,decimal,Simulation reference purchase cost in KES,Not actual supplier cost
+products.csv,is_perishable,boolean,Whether item is classed as perishable,Invented designation
+products.csv,is_active,boolean,Product catalogue status,All true in this version
+customers.csv,customer_id,text,Invented loyalty member ID,Primary key; no personal identifier
+customers.csv,registration_date,date YYYY-MM-DD,Simulated date registered,Must be on/before known-customer purchase
+customers.csv,home_county,text,Simulated home county,Same as preferred branch county
+customers.csv,preferred_store_id,text,Preferred branch,FK stores.store_id
+customers.csv,age_band,text; nullable,Invented age group,Some genuine raw blanks for cleaning
+customers.csv,acquisition_channel,text,Invented registration acquisition channel,Categorical
+orders.csv,order_id,text,Synthetic receipt ID,Primary key; unique
+orders.csv,store_id,text,Branch processing purchase,FK stores.store_id
+orders.csv,order_datetime,datetime YYYY-MM-DD HH:MM:SS,Local Kenya wall-clock time of purchase,"EAT UTC+03, no explicit offset stored"
+orders.csv,customer_id,text; nullable,"Loyalty ID, blank for guest checkout",Not all blanks are errors; FK if nonblank
+orders.csv,channel,text,"In-store, delivery or click-and-collect",Dimension
+orders.csv,payment_method,text; nullable,"M-Pesa, cash, cards or bank transfer",Some unintended blank values for cleaning
+orders.csv,order_date,date YYYY-MM-DD,Purchase date extracted from timestamp,Useful for date joins and time-series
+orders.csv,item_units,integer,Total physical units on receipt,"Based on pristine line items, before raw errors injected"
+orders.csv,gross_amount_kes,decimal,Receipt sales before discount,Sum pristine item line_gross_kes
+orders.csv,discount_amount_kes,decimal,Receipt discount amount,Sum pristine item line_discount_kes
+orders.csv,net_amount_kes,decimal,Receipt revenue after discount,gross_amount minus discount_amount
+orders.csv,promotion_applied,boolean,Any receipt line had an applied discount,Discount does not prove causal impact
+order_items.csv,line_id,text,Receipt line ID,Intended PK after removing intentionally duplicated rows
+order_items.csv,order_id,text,Receipt parent,FK orders.order_id
+order_items.csv,product_id,text,Product bought,FK products.product_id
+order_items.csv,quantity,integer,Units purchased on that line,Some intentional extreme entry mistakes
+order_items.csv,unit_price_kes,decimal; nullable,Gross price per unit before line discount,Some artificial missing values
+order_items.csv,unit_cost_kes,decimal,Estimated unit acquisition cost,Synthetic figure
+order_items.csv,discount_pct,integer,"Discount percentage 0, 5, 10, or 15",Not causal effect
+order_items.csv,line_gross_kes,decimal,Pre-discount quantity times price,Retains correct value before injected raw errors
+order_items.csv,line_discount_kes,decimal,Gross times discount percentage / 100,Retains correct value before injected raw errors
+order_items.csv,line_net_kes,decimal,Gross less discount,Retains correct value before injected raw errors
+county_population_2019_knbs.csv,county,text,Real county name,PK; join to stores.county
+county_population_2019_knbs.csv,census_year,integer,Census reference year,2019; do not treat as 2026 census
+county_population_2019_knbs.csv,population_2019,integer,KNBS enumerated county population in 2019,"Real contextual data, distinct from synthetic sales"
+county_population_2019_knbs.csv,source,text,Statistical source publisher and dataset,Attribution
+county_population_2019_knbs.csv,source_url,url,Official KNBS source URL,Attribution / licence verification
