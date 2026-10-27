@@ -1,0 +1,100 @@
+product_id,category,product_name,base_list_price_kes,base_unit_cost_kes,is_perishable,is_active
+P0001,Staples,Maize Flour 2kg,168,139.07,FALSE,TRUE
+P0002,Staples,Rice 1kg,215,177.07,FALSE,TRUE
+P0003,Staples,Rice 2kg,420,279.62,FALSE,TRUE
+P0004,Staples,Wheat Flour 2kg,188,138.24,FALSE,TRUE
+P0005,Staples,Sugar 1kg,175,126.9,FALSE,TRUE
+P0006,Staples,Dry Beans 1kg,225,153.93,FALSE,TRUE
+P0007,Staples,Green Grams 1kg,260,181.66,FALSE,TRUE
+P0008,Staples,Porridge Flour 1kg,168,121.01,FALSE,TRUE
+P0009,Staples,Spaghetti 500g,145,102.61,FALSE,TRUE
+P0010,Staples,Cooking Oil 1L,305,211.85,FALSE,TRUE
+P0011,Staples,Salt 1kg,55,40.91,FALSE,TRUE
+P0012,Staples,Breakfast Cereal 500g,395,277.37,FALSE,TRUE
+P0013,Fresh Produce,Tomatoes 1kg,140,96.12,TRUE,TRUE
+P0014,Fresh Produce,Onions 1kg,165,132.37,TRUE,TRUE
+P0015,Fresh Produce,Sukuma Wiki Bunch,45,36.36,TRUE,TRUE
+P0016,Fresh Produce,Spinach Bunch,50,39.94,TRUE,TRUE
+P0017,Fresh Produce,Potatoes 2kg,260,177.37,TRUE,TRUE
+P0018,Fresh Produce,Bananas 1kg,125,83.01,TRUE,TRUE
+P0019,Fresh Produce,Oranges 1kg,180,141.21,TRUE,TRUE
+P0020,Fresh Produce,Avocado Each,65,49.28,TRUE,TRUE
+P0021,Fresh Produce,Carrots 1kg,130,92.98,TRUE,TRUE
+P0022,Fresh Produce,Cabbage Each,115,83.04,TRUE,TRUE
+P0023,Fresh Produce,Mangoes 1kg,175,119.66,TRUE,TRUE
+P0024,Fresh Produce,Watermelon 1kg,110,90.35,TRUE,TRUE
+P0025,Dairy & Eggs,Fresh Milk 500ml,75,54.08,TRUE,TRUE
+P0026,Dairy & Eggs,Fresh Milk 1L,150,100.21,TRUE,TRUE
+P0027,Dairy & Eggs,Mala 500ml,105,85.46,TRUE,TRUE
+P0028,Dairy & Eggs,Plain Yoghurt 500ml,170,123.47,TRUE,TRUE
+P0029,Dairy & Eggs,Flavoured Yoghurt 250ml,95,73.04,TRUE,TRUE
+P0030,Dairy & Eggs,Cheese 200g,340,253.57,TRUE,TRUE
+P0031,Dairy & Eggs,Eggs Tray 6,125,88.63,TRUE,TRUE
+P0032,Dairy & Eggs,Eggs Tray 12,240,188.28,TRUE,TRUE
+P0033,Dairy & Eggs,Butter 250g,335,249.54,TRUE,TRUE
+P0034,Dairy & Eggs,Margarine 500g,285,220.73,TRUE,TRUE
+P0035,Bakery & Snacks,Sliced Bread 400g,75,60.71,TRUE,TRUE
+P0036,Bakery & Snacks,Brown Bread 400g,85,68.35,TRUE,TRUE
+P0037,Bakery & Snacks,Mandazi Pack 4,100,82.82,TRUE,TRUE
+P0038,Bakery & Snacks,Biscuits 200g,105,73.09,TRUE,TRUE
+P0039,Bakery & Snacks,Biscuits 400g,195,147.52,TRUE,TRUE
+P0040,Bakery & Snacks,Groundnuts 200g,145,104.41,TRUE,TRUE
+P0041,Bakery & Snacks,Potato Crisps 125g,155,120.34,TRUE,TRUE
+P0042,Bakery & Snacks,Popcorn 100g,105,78.48,TRUE,TRUE
+P0043,Bakery & Snacks,Cookies 200g,195,157.89,TRUE,TRUE
+P0044,Bakery & Snacks,Cake Slice,115,93.78,TRUE,TRUE
+P0045,Beverages,Black Tea 100g,145,115.52,FALSE,TRUE
+P0046,Beverages,Black Tea 250g,310,215.27,FALSE,TRUE
+P0047,Beverages,Instant Coffee 50g,260,172.07,FALSE,TRUE
+P0048,Beverages,Instant Coffee 100g,480,357.13,FALSE,TRUE
+P0049,Beverages,Drinking Water 500ml,45,36.44,FALSE,TRUE
+P0050,Beverages,Drinking Water 1.5L,85,69.95,FALSE,TRUE
+P0051,Beverages,Fruit Juice 1L,210,140.51,FALSE,TRUE
+P0052,Beverages,Soda 500ml,80,63.79,FALSE,TRUE
+P0053,Beverages,Soda 1.25L,155,112.52,FALSE,TRUE
+P0054,Beverages,Malted Drink 500g,395,327.7,FALSE,TRUE
+P0055,Beverages,Energy Drink 250ml,145,96.8,FALSE,TRUE
+P0056,Personal Care,Bath Soap 175g,95,76.44,FALSE,TRUE
+P0057,Personal Care,Toothpaste 100ml,175,138.04,FALSE,TRUE
+P0058,Personal Care,Toothbrush Each,115,82.29,FALSE,TRUE
+P0059,Personal Care,Body Lotion 200ml,285,223.51,FALSE,TRUE
+P0060,Personal Care,Shampoo 250ml,335,221.63,FALSE,TRUE
+P0061,Personal Care,Deodorant 150ml,315,259.83,FALSE,TRUE
+P0062,Personal Care,Sanitary Pads 8 Pack,125,90.51,FALSE,TRUE
+P0063,Personal Care,Tissues 2 Rolls,115,92.48,FALSE,TRUE
+P0064,Personal Care,Petroleum Jelly 200ml,215,153.25,FALSE,TRUE
+P0065,Personal Care,Hand Sanitiser 250ml,190,141.19,FALSE,TRUE
+P0066,Household,Laundry Powder 500g,175,117.5,FALSE,TRUE
+P0067,Household,Laundry Powder 1kg,330,249.65,FALSE,TRUE
+P0068,Household,Dishwashing Liquid 500ml,210,143.45,FALSE,TRUE
+P0069,Household,Bleach 500ml,140,104.77,FALSE,TRUE
+P0070,Household,Toilet Cleaner 500ml,250,199.79,FALSE,TRUE
+P0071,Household,Floor Cleaner 1L,330,224.49,FALSE,TRUE
+P0072,Household,Washing Bar Soap,110,73.77,FALSE,TRUE
+P0073,Household,Bin Liners Pack 10,175,126.21,FALSE,TRUE
+P0074,Household,Kitchen Paper Roll,130,106.05,FALSE,TRUE
+P0075,Household,Matches Pack 10,80,65.02,FALSE,TRUE
+P0076,Meat & Fish,Beef 500g,390,262.26,TRUE,TRUE
+P0077,Meat & Fish,Chicken 500g,435,360.74,TRUE,TRUE
+P0078,Meat & Fish,Tilapia 500g,425,313.09,TRUE,TRUE
+P0079,Meat & Fish,Sausages Pack 6,345,270.83,TRUE,TRUE
+P0080,Meat & Fish,Minced Beef 500g,440,337.44,TRUE,TRUE
+P0081,Meat & Fish,Frozen Fish Fillet 500g,520,380.03,TRUE,TRUE
+P0082,Meat & Fish,Chicken Wings 500g,370,299.32,TRUE,TRUE
+P0083,Meat & Fish,Beef Sausages 500g,410,313.21,TRUE,TRUE
+P0084,Stationery,Exercise Book 96 Page,65,52.48,FALSE,TRUE
+P0085,Stationery,Exercise Book 200 Page,125,86.76,FALSE,TRUE
+P0086,Stationery,Ballpoint Pen Pack 3,90,74.19,FALSE,TRUE
+P0087,Stationery,Pencil Pack 3,65,44.03,FALSE,TRUE
+P0088,Stationery,Ruler 30cm,65,49.5,FALSE,TRUE
+P0089,Stationery,Glue Stick,100,71.39,FALSE,TRUE
+P0090,Stationery,Drawing Book,155,125.82,FALSE,TRUE
+P0091,Stationery,Notebook A5,185,127.47,FALSE,TRUE
+P0092,Baby Care,Diapers Small Pack,520,380.3,FALSE,TRUE
+P0093,Baby Care,Baby Wipes 80 Pack,245,177.36,FALSE,TRUE
+P0094,Baby Care,Baby Soap 100g,135,90.8,FALSE,TRUE
+P0095,Baby Care,Baby Lotion 200ml,320,232.15,FALSE,TRUE
+P0096,Baby Care,Infant Cereal 250g,385,300.18,FALSE,TRUE
+P0097,Baby Care,Baby Shampoo 200ml,315,242.61,FALSE,TRUE
+P0098,Baby Care,Baby Powder 200g,225,169.9,FALSE,TRUE
+P0099,Baby Care,Diaper Cream 100g,345,276.57,FALSE,TRUE

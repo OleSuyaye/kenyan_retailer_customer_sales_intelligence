@@ -1,0 +1,11 @@
+store_id,store_name,county,town,opening_date,store_format
+S001,Mwangaza MiniMart - Ngara,Nairobi,Ngara,2024-01-01,Neighbourhood
+S002,Mwangaza MiniMart - South B,Nairobi,South B,2024-01-01,Neighbourhood
+S003,Mwangaza MiniMart - Thika,Kiambu,Thika,2024-01-01,Neighbourhood
+S004,Mwangaza MiniMart - Nakuru,Nakuru,Nakuru,2024-01-01,Neighbourhood
+S005,Mwangaza MiniMart - Nyali,Mombasa,Nyali,2024-01-01,Neighbourhood
+S006,Mwangaza MiniMart - Kisumu,Kisumu,Kisumu,2024-01-01,Neighbourhood
+S007,Mwangaza MiniMart - Ruiru,Kiambu,Ruiru,2025-02-01,Neighbourhood
+S008,Mwangaza MiniMart - Athi River,Machakos,Athi River,2025-06-01,Neighbourhood
+S009,Mwangaza MiniMart - Eldoret,Uasin Gishu,Eldoret,2026-01-01,Neighbourhood
+S010,Mwangaza MiniMart - Kitengela,Kajiado,Kitengela,2026-04-01,Neighbourhood
