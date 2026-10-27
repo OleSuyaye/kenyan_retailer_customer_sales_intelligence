@@ -15,9 +15,10 @@
 - **Source:** Kenya National Bureau of Statistics (KNBS).
 - **Publication:** 2019 Kenya Population and Housing Census, Volume I.
 - **Contents:** Population figures by county.
-- **Usage terms:** Verify the applicable licence and redistribution conditions before public distribution.
 - **Reference:** [KNBS Census Publication](https://repository.knbs.or.ke/handle/knbs-ke-repo/385)
 - **Limitation:** The 2019 population figures provide historical context and do not represent 2024–2026 population estimates.
+- **Licence:** [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+- **Usage terms:** Non-commercial reuse is permitted with appropriate attribution. Adapted material must be shared under the same licence.
 
 ## 3. Data Integration
 
